@@ -385,12 +385,10 @@ section {
     margin: 5px 0;
 }
 
-.degree{
-    margin-left: 94px;
-}
-
-.institution2{
-    margin-left: 44px; 
+.degree,
+.institution2 {
+    margin-left: 0;
+   text-align: center;
 }
 
 .course{
@@ -398,6 +396,19 @@ section {
      justify-content: center;
      align-items: center; 
 } 
+
+/* Responsive Fix */
+@media (max-width: 600px) {
+    .education-info h3 {
+        font-size: 1.2rem;
+    }
+    .education-info h4 {
+        font-size: 1rem;
+    }
+    .education-info p {
+        font-size: 0.9rem;
+    }
+}
 
 
 
