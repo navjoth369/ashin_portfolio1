@@ -108,6 +108,7 @@ a {
     left: 3%;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
+     transition: 0.3s;
 }
 
 .profile:hover {
